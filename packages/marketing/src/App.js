@@ -11,6 +11,7 @@ import Landing from "./components/Landing";
 const generateClassName = createGenerateClassName({
   productionPrefix: "ma",
 });
+
 export default ({ history }) => {
   return (
     <div>
